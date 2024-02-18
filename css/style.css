@@ -1953,14 +1953,21 @@ h2.typoh2{
    color: #e66712;
 }
 .aboutpage .more-button a {
-   color: #000;
-   padding: 6px 30px;
+   color: #0e44f3;
+   padding: 3px 3px;
 }
 .more-button a:hover {
 text-decoration: underline;
 }
+.more-button a:visited{
+   color:#4B11A1;
+}
 .aboutpage .more-button {
    margin-top: 2em;
+}
+ .aboutpageright img{
+   border-radius: 33px;
+   box-shadow: 5px 5px 10px rgba(37, 26, 20, 0.5);
 }
 /* //about page */
 
@@ -2611,8 +2618,8 @@ text-decoration: underline;
        padding: 6px 0;
    }
    .more-button a {
-       padding: 6px 28px;
-       font-size: 14px;
+       padding: 3px 20px;
+       font-size: 10px;
    }
 }
 @media screen and (max-width: 568px){
