@@ -1399,6 +1399,56 @@ a.social-button.google:hover {
    text-transform: uppercase;
    color: #000;
 }
+ .contact-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 600px;
+   margin:auto;
+   /* align-items: center;
+   height: 100vh;
+   margin: auto 0; */
+} 
+.contact-box
+{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   border: 2px solid black;
+   gap:20px;
+   width:100%;
+   padding: 20px 10px;
+   border-radius: 5px;
+   box-shadow:4px 4px 8px rgba(24, 21, 21, 0.5);
+   
+}
+.contact-details 
+{
+     padding:10px;
+     display:flex;
+     justify-content:left;
+     
+     flex-direction: column;
+     text-align: left;
+    
+     /* margin-left: 60px; */
+}
+.contact-details h3{
+   display:flex;
+   flex-direction: column;
+   gap:200px;
+   color: rgb(123, 1, 1);
+   text-decoration: underline;
+   margin-bottom: 10px;
+
+}
+.contact-details p{
+  margin-top: 5px;
+
+}
+
 /* //contact */
 /* contact page */
 
